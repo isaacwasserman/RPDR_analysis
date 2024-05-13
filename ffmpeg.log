@@ -1,0 +1,45 @@
+ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+  built with clang version 14.0.6
+  configuration: --prefix=/Users/runner/miniforge3/conda-bld/ffmpeg_1674566267822/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl --cc=arm64-apple-darwin20.0.0-clang --cxx=arm64-apple-darwin20.0.0-clang++ --nm=arm64-apple-darwin20.0.0-nm --ar=arm64-apple-darwin20.0.0-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-cross-compile --arch=arm64 --target-os=darwin --cross-prefix=arm64-apple-darwin20.0.0- --host-cc=/Users/runner/miniforge3/conda-bld/ffmpeg_1674566267822/_build_env/bin/x86_64-apple-darwin13.4.0-clang --enable-neon --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-pthreads --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/Users/runner/miniforge3/conda-bld/ffmpeg_1674566267822/_build_env/bin/pkg-config
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x158805ff0] Auto-inserting h264_mp4toannexb bitstream filter
+Input #0, concat, from 'concat_list.txt':
+  Duration: N/A, start: -0.021333, bitrate: 1625 kb/s
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x544 [SAR 1:1 DAR 45:34], 1497 kb/s, 29.97 fps, 29.97 tbr, 30k tbn
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc59.37.100 libx264
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp4, to 'tmp/supercuts/RuPaul_s Drag Race S01E08_SPEAKER_15.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x544 [SAR 1:1 DAR 45:34], q=2-31, 1497 kb/s, 29.97 fps, 29.97 tbr, 30k tbn
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc59.37.100 libx264
+  Stream #0:1(und): Audio: mp3 (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc59.37.100 libmp3lame
+frame=    3 fps=0.0 q=-1.0 size=       0kB time=00:00:00.02 bitrate=  18.0kbits/s speed= 689x    [mov,mp4,m4a,3gp,3g2,mj2 @ 0x158805ed0] Auto-inserting h264_mp4toannexb bitstream filter
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x157e29a00] Auto-inserting h264_mp4toannexb bitstream filter
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x158806680] Auto-inserting h264_mp4toannexb bitstream filter
+frame= 1447 fps=0.0 q=-1.0 Lsize=    9408kB time=00:00:48.34 bitrate=1594.2kbits/s speed= 102x    
+video:8616kB audio:756kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.387569%

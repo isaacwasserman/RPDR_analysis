@@ -1,1 +1,6 @@
 .env
+videos
+tmp
+supercuts
+sentences.jsonl
+sentence_embeddings.csv
